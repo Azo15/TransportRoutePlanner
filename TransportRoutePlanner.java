@@ -19,6 +19,7 @@ public class TransportRoutePlanner {
             kriterler[i][4] = random.nextInt(50) + 5;       // Sosyal fayda (5-55)
         }
         
+        
         // Softmax algoritması ile kriterlerin ağırlıklarını hesapla
         double[][] agirliklar = applySoftmax(kriterler);
         
@@ -99,3 +100,4 @@ public class TransportRoutePlanner {
         System.out.println("\nEn uygun mahalle: " + MAHALLELER[enUygunMahalle]);
     }
 }
+

@@ -9,6 +9,7 @@ public class TransportRoutePlanner {
     
     public static void main(String[] args) {
         double[][] kriterler = new double[3][5]; // 3 mahalle, 5 kriter
+
         
         // Sentetik veri üretimi (örnek değer aralıkları)
         for (int i = 0; i < 3; i++) {
@@ -100,4 +101,5 @@ public class TransportRoutePlanner {
         System.out.println("\nEn uygun mahalle: " + MAHALLELER[enUygunMahalle]);
     }
 }
+
 

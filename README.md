@@ -6,7 +6,7 @@ Bu proje, Kırklareli’nin üç farklı mahallesi için yeni bir toplu taşıma
 - Sentetik veri oluşturma (Nüfus yoğunluğu, ulaşım altyapısı, maliyet analizi, çevresel etki, sosyal fayda)
 - Softmax algoritması ile kriter ağırlıklarının belirlenmesi
 - En uygun güzergahın seçilmesi
-- Konsol çıktısı olarak sonuç gösterimi
+- Konsol çıktısı olarak sonuç gösterimi 
 
 ## Kullanım
 ```sh
